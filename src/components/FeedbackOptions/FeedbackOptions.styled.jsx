@@ -12,6 +12,8 @@ export const Button = styled.button`
   background-color: #ccd3e7;
   border: 0;
   border-radius: 8px;
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
   :hover,
   :focus {
