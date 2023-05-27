@@ -41,11 +41,11 @@ class App extends Component {
           <FeedbackOptions
             options={options}
             onLeaveFeedback={this.onClick}
-          ></FeedbackOptions>
+          />
         </Section>
         <Section title="Statistics">
           {total === 0 ? (
-            <Notification message="There is no feedback"></Notification>
+            <Notification message="There is no feedback"/>
           ) : (
             <Statistics
               good={good}
@@ -53,7 +53,7 @@ class App extends Component {
               bad={bad}
               total={total}
               percentage={percentage}
-            ></Statistics>
+            />
           )}
         </Section>
       </Container>
